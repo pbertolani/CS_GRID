@@ -1,41 +1,16 @@
-/* Grid Layout */
-
 .container {
-    background-color: yellow;
-    padding: 10px;
-    margin-bottom: 20px;
+    border: 2px solid black;
     display: grid;
-    grid-template-columns: minmax(50px, 200px) minmax(50px, 200px);
+    grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
+    grid-template-rows: 50px 100px 200px;
 }
 
 .item {
-    border: 1px solid black;
-}
-
-.item-01 {
-    background-color: palevioletred;
-}
-
-.item-02 {
-    background-color: cornflowerblue;
-}
-
-.item-03 {
-    background-color: palegreen;
-}
-
-.item-04 {
+    text-align: center;
     background-color: orange;
-}
+    grid-column-start: 2;
+    grid-column-end: 5;
 
-.item-05 {
-    background-color: violet;
-}
-
-.item-06 {
-    background-color: bisque;
-}
-
-.item-07 {
-    background-color: tomato;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
