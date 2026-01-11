@@ -1,7 +1,7 @@
 /* Grid Layout */
 
 .container {
-    border: 1px solid black;
+    background-color: yellow;
     padding: 10px;
     margin-bottom: 20px;
     display: inline-grid;
@@ -9,4 +9,28 @@
 
 .item {
     background-color: palegreen
+}
+
+.item-01 {
+    background-color: palevioletred;
+}
+
+.item-02 {
+    background-color: cornflowerblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color: violet;
+}
+
+.item-06 {
+    background-color: bisque;
 }
