@@ -4,11 +4,15 @@
     background-color: yellow;
     padding: 10px;
     margin-bottom: 20px;
-    display: inline-grid;
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .item {
-    background-color: palegreen
+    background-color: palegreen;
+    border: 1px solid black;
 }
 
 .item-01 {
@@ -33,4 +37,8 @@
 
 .item-06 {
     background-color: bisque;
+}
+
+.item-07 {
+    background-color: tomato;
 }
