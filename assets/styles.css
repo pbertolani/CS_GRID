@@ -1,26 +1,26 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+}
+
 .container {
     border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
-    grid-template-rows: 50px 100px 200px;
 }
 
-.item {
-    text-align: center;
+header {
+    background-color: orange;
+}
+
+main {
     background-color: deepskyblue;
-
-    grid-column-start: 1;
-    grid-column-end: 6;
-
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 
-.item-02 {
-    text-align: center;
-    background-color: cadetblue;
+aside {
+    background-color: lightcoral;
+}
 
-    grid-column: 1 / 6;
-
-    grid-row: 2 / 4;
+footer {
+    background-color: yellowgreen;
 }
