@@ -5,6 +5,8 @@ body {
     grid-template-areas: "header header header header" 
     "main main . sidebar" 
     "footer footer footer footer";
+    column-gap: 20px;
+    row-gap: 10px;
 }
 
 .container {
